@@ -1,0 +1,12 @@
+h1, h3 {
+    font-size: 1.17em;
+    font-weight: bold
+}
+
+ul {
+    list-style-type: disc
+}
+
+ol {
+    list-style-type: decimal
+}

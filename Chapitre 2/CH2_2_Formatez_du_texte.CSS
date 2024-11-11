@@ -1,0 +1,69 @@
+/* C0 */
+body {
+    font-family: "Courier New", monospace; /* Courier New */
+    font-size: 12px; /* 12 pixels */
+    text-align: justify /* justifié */
+}
+
+.C1 {
+    font-family: Arial, sans-serif; /* Arial */
+    font-size: 20px; /* 20 */
+    color: red; /* rouge */
+    text-align: center; /* centré */
+    background-color: #FFFFE0 /* arrière-plan jaune pâle */
+}
+
+.C2 {
+    font-family: Arial, sans-serif; /* Arial */
+    font-size: 16px; /* 16px */
+    color: purple; /* violet */
+    text-align: center /* centrées */
+}
+.C2 p:first-of-type {
+    margin-top: 20px /* espacement avant la première ligne de 20 px  */
+}
+.C2 p:last-of-type {
+    margin-bottom: 20px /* espacement vertical après la deuxième de 20px */
+}
+
+.C3 p {
+    font-family: Arial, sans-serif; /* Arial */
+    font-size: 11px; /* 11px */
+    text-indent: 20px; /* alinéa de 20 px */
+    margin: 25px 0 /* espacement avant et après de 25 */
+}
+
+.C4 {
+    counter-increment: section; /* https://developer.mozilla.org/fr/docs/Web/CSS/counter-increment */ 
+    font-family: Arial, sans-serif; /* Arial */
+    font-size: 15px; /* 15px */
+    color: blue; /* bleu */
+    font-weight: bold /* gras */
+}
+.C4::before {
+    content: counter(section) ", "; /* affiche le compteur suivi d'une virgule, prenant l'exemple de : (« 1, L'origine lointaine... ») */
+}
+
+.C5 {
+    font-family: "Times New Roman", serif; /* Times new roman */
+    font-size: 12px; /* 12px */
+    font-style: italic; /* italiques */
+    margin: 10px 1cm 20px /* marge horizontale de 1cm à gauche et à droite, espacement vertical 10 px avant et 20 px après */
+}
+
+.C6 {
+    font-size: 13px; /* 13 px */
+    text-decoration: underline /* souligné */
+}
+
+.C7 p {
+    text-indent: 12px; /* 12 */
+    margin: 10px 0 20px 0 /* espacement 10 avant et 20 après */
+}
+
+/* C8 - Paragraphe spécial avec puce et couleur */
+.C8 {
+    list-style-type: disc;
+    color: lightblue;
+    margin: 10px 0 20px 0; /* Espacement vertical */
+}

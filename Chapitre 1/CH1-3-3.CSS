@@ -1,0 +1,37 @@
+body {
+    margin: 0.67em;
+    border: 1px solid var(--color)
+}
+
+div {
+    margin: 0.67em
+}
+
+h1 {
+    font-weight: bold
+}
+
+p {
+    font-weight: normal
+}
+
+h1, p {
+    font-size: 1.17em;
+    margin: 0
+}
+
+ul {
+    list-style-type: disc
+}
+
+ol {
+    list-style-position: outside
+}
+
+ol > li {
+    padding-left: 0.47rem
+}
+
+ul, ol {
+    margin: 0
+}

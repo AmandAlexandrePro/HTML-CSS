@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+:root {
+    --background-color: #1A1A1A;
+    --color: #E5E5E5;
+}
+
+[data-theme="light"] {
+    --background-color: #E5E5E5;
+    --color: #1A1A1A;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--color);
+    margin: 0 0.67em;
+}
