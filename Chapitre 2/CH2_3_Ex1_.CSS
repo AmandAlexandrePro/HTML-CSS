@@ -1,0 +1,19 @@
+body {
+    background: url("./pingouin.png"), url("./feuilles.png");
+    background-repeat: no-repeat, repeat;
+    background-attachment: fixed, scroll;
+    background-position: center top, left top;
+    color: white
+}
+
+.title {
+    color: blueviolet
+}
+
+.italic {
+    font-style: italic
+}
+
+p {
+    font-style: normal
+}

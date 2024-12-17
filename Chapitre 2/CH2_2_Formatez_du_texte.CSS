@@ -41,7 +41,7 @@ body {
     font-weight: bold /* gras */
 }
 .C4::before {
-    content: counter(section) ", "; /* affiche le compteur suivi d'une virgule, prenant l'exemple de : (« 1, L'origine lointaine... ») */
+    content: counter(section) ", " /* affiche le compteur suivi d'une virgule, prenant l'exemple de : (« 1, L'origine lointaine... ») */
 }
 
 .C5 {
@@ -61,9 +61,16 @@ body {
     margin: 10px 0 20px 0 /* espacement 10 avant et 20 après */
 }
 
-/* C8 - Paragraphe spécial avec puce et couleur */
-.C8 {
-    list-style-type: disc;
-    color: lightblue;
-    margin: 10px 0 20px 0; /* Espacement vertical */
+.C8 p {
+    text-indent: 10px; /* retrait 10 avant */
+    margin: 10px 0 20px 0 /* espacement 10 avant et 20 après */
+}
+
+.C9 {
+    text-indent: 0; /* pas de retrait */
+    margin: 10px 0 20px 0; /* espacement 10 avant et 20 après */
+    display: list-item; /* pour activer l'affichage de puce */
+    margin-left : 1em; /* nécessaire pour activer l'affichage de puce */
+    list-style-type: disc; /* avec puce */
+    color: lightblue /* couleur bleu clair */
 }

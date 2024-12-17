@@ -23,6 +23,11 @@ a {
     margin-left: 2.27em
 }
 
+a:hover, a:active {
+    color: inherit;
+    text-decoration: none
+}
+
 .hiddenDecimal::marker {
     color: transparent
 }
